@@ -1,0 +1,40 @@
+h1{
+    color: white;
+    opacity: 0.7;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+  
+  h3{
+    color: white;
+    opacity: 0.75;
+    font-family: Arial;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight:200;
+  }
+  
+  h4{
+    color: white;
+    opacity: 0.5;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 20;
+    margin-bottom: 25px;
+    vertical-align: 5px;
+  }
+  
+  
+  #pfp{
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 150px;
+    border-color: white;
+    border-width: 2px;
+    border-style:solid;
+  }
+  
