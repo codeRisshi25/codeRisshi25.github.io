@@ -1,14 +1,69 @@
 body{
-    background-color:#308dff;
+    background-color:rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
     margin: 0;
-    filter: brightness(150%);
+    padding: 0;
 }
 
-p{
-    font-family: Arial;
+.purple{
+    color: rgb(206, 139, 248);
 }
 
-@media screen and (max-width:800px) 
+#element {
+    color: rgb(206, 139, 248);
+}
+
+.sectionHeader{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.grey{
+    color: grey;
+    opacity: 0.8;
+    font-size: 18px;
+    margin : 0;
+}
+
+#education,#skills{
+    border:0;
+    height: 2px;
+    background: rgb(93, 93, 190);
+    margin: 40px 80px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:800px) 
 {
     body{
         background-color: black;
@@ -23,4 +78,4 @@ p{
         padding: 0;
     }
 
-}
+} */

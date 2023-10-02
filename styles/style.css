@@ -1,40 +1,117 @@
-h1{
-    color: white;
-    opacity: 0.7;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 10px;
-    margin-bottom: 18px;
-  }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(7, 7, 58);
+}
+
+nav ul {
+  display: flex;  
+  justify-content: center;
   
-  h3{
-    color: white;
-    opacity: 0.75;
-    font-family: Arial;
-    font-size: 17px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-weight:200;
-  }
-  
-  h4{
-    color: white;
-    opacity: 0.5;
-    font-family: Arial;
-    font-size: 17px;
-    font-weight: 20;
-    margin-bottom: 25px;
-    vertical-align: 5px;
-  }
-  
-  
-  #pfp{
-    margin-top: 10px;
-    width: 150px;
-    border-radius: 150px;
-    border-color: white;
-    border-width: 2px;
-    border-style:solid;
-  }
-  
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(223, 189, 244);
+  font-size: 1.04rem;
+}
+
+.top-left{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.firstSection{
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh 0;
+  align-items: center;
+}
+
+.firstSection > div{
+  width: 35%;
+}
+
+.leftSection{
+  font-size: 2.8rem;
+}
+
+#coding{
+  width: 90%;
+}
+
+.secondSection{
+  max-width: 80vw;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+.box{
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 78px 0;
+  display: flex;
+}
+
+.vertical{
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 204px;
+}
+
+.vertical-title{
+  position: relative;
+  top: 59px;
+  left: -68px;
+  font-size: 19px;
+  width: 152px;
+  text-align: center;
+}
+
+.vertical-desc{
+  position: relative;
+  font-size: 10px;
+  top: 62px;
+  left: -55px;
+  color: grey;
+  width: 123px;
+  text-align: justify;
+}
+
+.image-top{
+  width: 30px;
+  border-radius: 35px;
+  position: relative;
+  top: -38px;
+  left: -14px;
+}
+
+.thirdSection{
+  max-width: 80vw;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh 0;
+  align-items: center;
+}
+
+#skills-image{
+  width: 20rem;
+}

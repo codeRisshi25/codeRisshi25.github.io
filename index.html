@@ -10,33 +10,102 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="loader.css" /> -->
     <link rel="icon" type="image/png" href="image/self.jpg"/>
     <title>Risshi Raj Sen</title>
 
 </head>
 <body>
-    <main>
-        <div class="top">
-            <div class="name-section"><p id="name">Risshi Raj Sen</p></div>
-            <div class="right-section">
-                <div class="rs-exp">Experience</div>
-                <div class="rs-pj">Projects</div>
-                <div class="rs-sk">Skills</div>
-                <div class="rs-edu">Education</div>
-                <div class="rs-ct">Contact</div>
+    <header>
+        <nav>
+            <div class="top-left">Risshi's Portfolio</div>
+            <div class="top-right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
             </div>
-        </div>
-        <header style="margin-left: 30px; margin-top: 50px; display: inline-block;">
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Risshi</span>
+                <div>
+                    And I am a passionate 
+                    <div><span id="element"></span></div>
 
-            <img id="pfp" src="image/self.jpg">
-            <h1><a>Risshi Raj Sen</a></h1>
-            <h3>
-                Backend Developer / Computer Science Engg Student</h3>
-            <h4>
-                1st year btech cse student at Bennett University.<br>I work on what goes behind making a beautiful website work.
-            </h4>
-        </header>
+                </div>
+            </div>
+            <div class="rightSection"><img src="image/Code typing.gif" alt="file" id="coding"></div>
+        </section>
+        <hr id="education">
+        <section class="secondSection">
+            
+            <span class="grey">Institutions i've attended so far</span>
+
+            <p class="sectionHeader">Education</p>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="image/indus.jpg" alt="INDUS ACADEMY">
+                    <div class="vertical-title">
+                        INDUS ACADEMY 
+                        2014-2020
+                    </div>
+                    <div class="vertical-desc">
+                        I completed my middle schooling from Indus Academy, ASSAM. i excelled in my schooling , and took part and won in many co-curricular activites.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="image/kvs.png" alt="INDUS ACADEMY">
+                    <div class="vertical-title">
+                        K.V. KHANAPARA
+                        2020-2022
+                    </div>
+                    <div class="vertical-desc">
+                        I completed my high schooling schooling from Khanapara, ASSAM. i was in the core Robotics team , learnt python and made fun projects.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="image/bennett.png" alt="INDUS ACADEMY">
+                    <div class="vertical-title" style="width : 220px; left:-108px;">
+                        BENNETT UNIVERSITY
+                        2023-2027
+                    </div>
+                    <div class="vertical-desc" style="width : 150px; left:-70px;">
+                       This year I am a freshmen at Bennett University, Greater Noida. I am pursuing B.Tech in Computer Science Engg. I am a Junior core member of the Full Stack Club , and learning Express and MongoDB.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr id="skills">
+
+        <section class="thirdSection">
+            <span class="grey">Skills gained through the years</span>
+            <p class="sectionHeader">My Skills</p>
+            <div class="skills">
+                <div class="skills-left-section">
+                </div>
+                <div class="skills-right-section">
+                    <img id="skills-image" src="image/skills.svg" alt="skills">
+                </div>
+            </div>
+        </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['3D Artist.',"Gamer.","Tech Enthusiast.",'Backend Developer.'],
+          typeSpeed: 50,
+        });
+      </script>
 </body>
 </html>
+
+
+
