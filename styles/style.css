@@ -105,13 +105,30 @@ nav ul li a:hover {
   padding-bottom: 200px;
 }
 
+.skills-left-section{
+  background-color: rgba(210, 191, 255, 0.059) ;
+  max-width: 413px;
+}
+
 .skills{
   display: flex;
   justify-content: space-around;
   margin: 5vh 0;
-  align-items: center;
 }
 
 #skills-image{
-  width: 20rem;
+  width: 22rem;
+}
+
+.skill-icons{
+  width: 70px;
+  margin: 5px 15px;
+}
+
+.icons-wrapper{
+  padding: 0px 50px;
+}
+
+.skill-icons:hover{
+  transform: scale(1.1);
 }

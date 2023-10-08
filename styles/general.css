@@ -36,6 +36,15 @@ body{
     margin: 40px 80px 40px;
 }
 
+.icon-text{
+    margin-left: 5rem;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Martian Mono', sans-serif;
+    margin-bottom: 35px;
+    padding-top: 25px;
+}
+
 
 
 
