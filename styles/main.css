@@ -1,0 +1,214 @@
+/*-----------------------------------------FIRST SECTION-----------------INTRO-----------------------------------*/
+.top-left {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh 0;
+  align-items: center;
+}
+
+.firstSection > div {
+  width: 35%;
+}
+
+.leftSection {
+  font-size: 2.8rem;
+}
+
+#coding {
+  width: 90%;
+}
+/*------------------------------------SECOND SECTION-----------------EDUCATION-----------------------------------*/
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+.box {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 78px 0;
+  display: flex;
+}
+
+.vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 204px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 59px;
+  left: -68px;
+  font-size: 19px;
+  width: 152px;
+  text-align: center;
+}
+
+.vertical-desc {
+  position: relative;
+  font-size: 10px;
+  top: 62px;
+  left: -55px;
+  color: grey;
+  width: 123px;
+  text-align: justify;
+}
+
+.image-top {
+  width: 30px;
+  border-radius: 35px;
+  position: relative;
+  top: -38px;
+  left: -14px;
+}
+
+/*----------------------------------------THIRD SECTION-----------------SKILLS-----------------------------------*/
+
+.thirdSection {
+  max-width: 80vw;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.skills-left-section {
+  background-color: rgba(210, 191, 255, 0.059);
+  max-width: 413px;
+  border-radius: 10px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5vh 0;
+}
+
+#skills-image {
+  width: 22rem;
+}
+
+.skill-icons {
+  width: 70px;
+  margin: 5px 15px;
+  transition: all 0.1s ease-in-out;
+}
+
+.icons-wrapper {
+  padding: 0px 50px 30px;
+}
+
+.skill-icons:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/*------------------------------------FORTH SECTION-----------------PROJECTS-------------------------------------*/
+
+.forthSection {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.flex-projects {
+  margin: 5vh 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  column-gap: 10px;
+  row-gap: 40px;
+  padding-bottom: 10px;
+}
+
+.project {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-color: var(--secondary);
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  height: 385px;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  text-align: justify;
+}
+
+.flex-projects:hover .project {
+  opacity: 0.5;
+  filter: blur(3px);
+}
+
+.flex-projects .project:hover {
+  transform: scale(1.1);
+  top: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  filter: blur(0px);
+  opacity: 1;
+  filter: blur(0px);
+}
+
+.project-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.project-image {
+  width: 75%;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: var(--secondary);
+}
+
+.project-title-text {
+  font-family: "Martian Mono", sans-serif;
+  margin: 15px 0;
+}
+
+.project-desc-text {
+  font-family: "Martian Mono", sans-serif;
+  font-size: 0.85rem;
+  margin-top: 15px;
+}
+
+.project-view {
+  margin-top: 25px;
+}
+
+.project-view-btn {
+  padding: 13px 45px;
+  font-family: "Martian Mono", sans-serif;
+  background-color: rgb(28, 28, 123);
+  border: none;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.project-view-btn:hover {
+  background-color: rgb(37, 37, 117);
+}
+
+.project-view-btn:active {
+  background-color: rgb(37, 37, 117);
+  transform: scale(0.9);
+}
+
+.project-links {
+  text-decoration: none;
+  color: white;
+}
